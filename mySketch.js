@@ -9,7 +9,7 @@ function setup() {
 function draw() {
 	background(0);
 		let textIn='welcome to Buddha Halls Online'
-	textFont('Georgia')
+	textFont('Times New Roman')
 	textSize(64);
 	textAlign(CENTER, CENTER)
 	fill(255);
