@@ -8,7 +8,8 @@ function setup() {
 
 function draw() {
 	background(0);
-		let textIn='welcome to Chan Buddhism fandom'
+		let textIn='welcome to Buddha Halls Online'
+	textFont('Georgia')
 	textSize(64);
 	textAlign(CENTER, CENTER)
 	fill(255);
