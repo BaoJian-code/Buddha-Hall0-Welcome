@@ -21,23 +21,24 @@ body {
 	text-align: center;
 }
 
-a:hover{
-	color: white;
-}
-	    
-a[href^="https"]::before {
-	content:url('false.png');
+a::before {
+	content: url('false.png');
 }
 
 
-a[href^="https"] {
+a {
 	color: red;
 	font-family: "Times New Roman", serif;
 	font-size: 18px;
 	font-weight: normal;
-	margin:0px 10px;
-	text-decoration:none;
+	margin: 0px 10px;
+	text-decoration: none;
 }
+
+a:hover {
+color: white;
+}
+	    
 #main::before{
 	content: none;
 }
